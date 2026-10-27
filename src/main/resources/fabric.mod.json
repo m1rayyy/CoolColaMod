@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "coolcola-mod",
+	"version": "${version}",
+	"name": "CoolCola Mod",
+	"description": "Ia i love cole dude",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/coolcola-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mry.coolcolamode.CoolColaMod"
+		],
+		"fabric-datagen": [
+			"net.mry.coolcolamode.CoolColaModDataGenerator"
+		],
+		"client": [
+			"net.mry.coolcolamode.CoolColaModClient"
+		]
+	},
+	"mixins": [
+		"coolcola-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
