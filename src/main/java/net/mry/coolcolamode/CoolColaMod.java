@@ -6,7 +6,7 @@ import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-  //проверка связи
+  //проверка связи2
 public class CoolColaMod implements ModInitializer {
 	public static final String MOD_ID = "coolcola-mod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
